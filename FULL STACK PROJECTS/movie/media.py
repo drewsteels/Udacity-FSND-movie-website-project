@@ -13,7 +13,7 @@ class Movie():
         VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
     def show_trailer(self):
-        """ This docstring should explain what the show_trailer() function does """ # NOQA
+        """ This docstring should explain what the show_trailer() function does """  # NOQA
         webbrowser.open(self.trailer_youtube_url)
 
     
